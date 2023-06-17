@@ -1,1 +1,1 @@
- ![Dashboard](/img/vis1.png)
+ ![Dashboard](img/vis1.png)
