@@ -11,3 +11,19 @@ Log Format:
 ```
 
 Grok applied to Logstash to parse 5-tuple data and geoip for geo data
+
+Result
+```
+{
+  "protocol": "udp",
+  "destination": {
+    "port": "443",
+    "ip": "10.10.10.1"
+  },
+  "action": "pass",
+  "source": {
+    "port": "54608",
+    "ip": "192.168.2.117"
+  }
+}
+```
