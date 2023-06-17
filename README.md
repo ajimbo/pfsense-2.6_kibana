@@ -1,4 +1,4 @@
-### Ingesting pfsense data via logstash -> elasticsearch -> kibana
+### Ingesting Pfsense 2.6 data via logstash -> elasticsearch -> kibana
 
 Pfsense 2.6
 Logs:
