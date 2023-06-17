@@ -5,7 +5,9 @@ Logs:
 1. "Firewall Events"
 2. "DNS Events"
 
-Format:
+Log Format:
 ```
 <134>Jun 17 13:37:58 filterlog[59716]: 130,,,1575729688,igb1,match,pass,in,4,0x0,,64,55831,0,DF,6,tcp,60,192.168.2.12,54.221.200.137,60293,443,0,S,3825784625,,29200,,mss;sackOK;TS;nop;wscale
 ```
+
+Grok applied to Logstash to parse 5-tuple data and geoip for geo data
