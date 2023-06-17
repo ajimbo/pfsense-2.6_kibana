@@ -2,8 +2,8 @@
 
 Pfsense 2.6
 Logs:
-  "Firewall Events"
-  "DNS Events"
+1. "Firewall Events"
+2. "DNS Events"
 
 Format:
 ```
