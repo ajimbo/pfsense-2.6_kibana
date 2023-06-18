@@ -36,4 +36,15 @@ Create a new index mapping
            "@timestamp" : {
              "type" : "date"
    ```
+4. Locate the location property, remove the properties with lat/lon fields and just give it a "type": "geo_point" to look like the following:
+   ```
+   "latitude" : {
+   "type" : "float"
+   },
+   "location" : {
+   "type": "geo_point"
+   },
+   "longitude" : {
+   "type" : "float"
+   ```
  ![Dashboard](img/vis1.png)
