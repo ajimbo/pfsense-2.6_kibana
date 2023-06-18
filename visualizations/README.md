@@ -47,4 +47,9 @@ Create a new index mapping
    "longitude" : {
    "type" : "float"
    ```
+5. Run the PUT command to apply the template.
+5. Delete the current indices or wait until the next day creates a new one.
+   ```
+   DELETE so-pfsense-*
+   ```
  ![Dashboard](img/vis1.png)
