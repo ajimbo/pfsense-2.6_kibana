@@ -28,4 +28,5 @@ Result
 }
 ```
 
-### Check out visualization on Kibana Map fix
+### Kibana Map fix
+adding geo_point type, in visualization folder
