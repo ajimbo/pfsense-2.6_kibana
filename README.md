@@ -27,3 +27,5 @@ Result
   }
 }
 ```
+
+### Check out visualization on Kibana Map fix
