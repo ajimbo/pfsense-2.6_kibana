@@ -16,12 +16,13 @@ services:
       - elk
     volumes:
       - ./pipeline:/usr/share/logstash/pipeline
+ #     - ./config:/usr/share/logstash/config
  ## deploy for swarm, test for volume     
-    deploy:
-      placement:
-        constraints: [node.role == manager]
+ #   deploy:
+ #     placement:
+ #       constraints: [node.role == manager]
     ports:
-      - 5144:5144
+      - 5144:5144/udp
       - 5044:5044
   kibana:
     image: kibana:7.17.10
@@ -32,5 +33,3 @@ services:
       - 5601:5601
 networks:
   elk:
-  ingress:
-   external: true
